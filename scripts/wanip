@@ -1,0 +1,4 @@
+#!/bin/sh
+# Report the external IP address of this host.
+
+dig +short myip.opendns.com @resolver1.opendns.com
