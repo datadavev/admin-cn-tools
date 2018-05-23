@@ -1,0 +1,6 @@
+#!/bin/bash
+# Report the RR-DNS name for this environment
+
+PROPERTIES="/etc/dataone/node.properties"
+THIS_ENVIRONMENT=$(grep "^cn.router.hostname=" ${PROPERTIES} | cut -d'=' -f2)
+echo "${THIS_ENVIRONMENT}"
