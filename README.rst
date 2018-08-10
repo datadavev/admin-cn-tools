@@ -1,4 +1,5 @@
-# admin_cn_tools
+admin_cn_tools
+==============
 
 Scripts to assist with CN management.
 
